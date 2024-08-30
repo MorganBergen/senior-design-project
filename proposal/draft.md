@@ -1,4 +1,4 @@
-#  clarity
+.≥#  clarity
 
 clarity, food is medicine
 
