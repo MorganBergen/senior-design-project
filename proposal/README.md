@@ -1,12 +1,10 @@
-#  Design Project Proposal 
+#  Clarity
 
-> 🚧 Unfinished - currently under maintenance
+> 🚧 Design Project Proposal - unfinished & currently under maintenance
 
-**Project Title 1**  Clarity -  Harnessing AI for Precision Nutrition and Health Analysis
+**Project Title 1**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
 
-**Project Title 2**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
-
-**Project Title 3**  Clarity -  Advanced ML for Nutritional Analysis and Healthcare Management
+**Project Title 2**  Clarity -  Advanced ML for Nutritional Analysis and Healthcare Management
 
 **Name**  Morgan Bergen
 
@@ -327,20 +325,25 @@ Nutritional Data Extraction
 
 ####  Tools and Technologies
 
-api integration 
+Image Recognition tools
+
+-  [DeepAI](https://deepai.org)
+-  [Clarify AI](https://www.clarifai.com)
+
+API Integration 
 
 -  Open Food Facts API - For food identification and nutritional information via barcode scanning
 -  HealthKit - For integration with health devices and data collection
 
 Technology Stack Ideas
 
--  language -  typescript 
--  library / framework - react native
--  app function - for cross-platform development and provides a native-like experience
--  firebase - for cloud storage, user authentication, and data handling
+-  Language -  typescript 
+-  Library / Framework - react native
+-  App Function - for cross-platform development and provides a native-like experience
+-  Firebase - for cloud storage, user authentication, and data handling
 -  `react-native-health` for integrating with healthKit
--  platform integration - firebase for cloud storage, user authentication, hosting, and database.
--  additional tools - `redux` for state management, `axios` for https request, jest for unit testing
+-  Platform Integration - firebase for cloud storage, user authentication, hosting, and database.
+-  Additional Tools - `redux` for state management, `axios` for https request, jest for unit testing
 
 ##  Design
 
