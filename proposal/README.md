@@ -1,12 +1,12 @@
 #  Design Project Proposal 
 
+> 🚧 Unfinished - currently under maintenance
+
 **Project Title 1**  Clarity -  Harnessing AI for Precision Nutrition and Health Analysis
 
 **Project Title 2**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
 
 **Name**  Morgan Bergen
-
-**Date Due**  August 30, 2024
 
 **Course**  CS 598 Senior Design Project I
 
