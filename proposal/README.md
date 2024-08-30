@@ -11,9 +11,13 @@
 **Course**  CS 598 Senior Design Project I
 
 ----
-####  Preview of Application Dashboard
 
-<img src="./assets/dashboard.svg">
+<details>
+    <summary>Open Toggle to Preview of Application Dashboard</summary>
+    <p>
+        <img src="./assets/dashboard.svg" alt="Dashboard Preview">
+    </p>
+</details>
 
 ----
 
@@ -318,6 +322,21 @@ Nutritional Data Extraction
 ####  Methodology
 
 ####  Tools and Technologies
+
+api integration
+
+-  open food facts api - for food identification and nutritional information
+-  healthKit - for integration with health devices and data collection
+
+technology stack ideas
+
+-  language -  typescript 
+-  library / framework - react native
+-  app function - for cross-platform development and provides a native-like experience
+-  firebase - for cloud storage, user authentication, and data handling
+-  `react-native-health` for integrating with healthKit
+-  platform integration - firebase for cloud storage, user authentication, hosting, and database.
+-  additional tools - `redux` for state management, `axios` for https request, jest for unit testing
 
 ##  Design
 
