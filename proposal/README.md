@@ -323,12 +323,12 @@ Nutritional Data Extraction
 
 ####  Tools and Technologies
 
-api integration
+api integration 
 
--  open food facts api - for food identification and nutritional information
--  healthKit - for integration with health devices and data collection
+-  Open Food Facts API - For food identification and nutritional information via barcode scanning
+-  HealthKit - For integration with health devices and data collection
 
-technology stack ideas
+Technology Stack Ideas
 
 -  language -  typescript 
 -  library / framework - react native
@@ -371,6 +371,14 @@ technology stack ideas
 ####  Libraries
 
 ##  References
+
+[uber api](https://developer.uber.com/docs/eats/introduction)
+
+[food labeling](https://www.nal.usda.gov/legacy/aglaw/food-labeling)
+
+[open food facts monitoring](https://github.com/openfoodfacts/openfoodfacts-monitoring)
+
+[open food facts api documentation](https://openfoodfacts.github.io/openfoodfacts-server/api/)
 
 ####  Documentation
 
