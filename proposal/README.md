@@ -6,9 +6,13 @@
 
 **Project Title 2**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
 
+**Project Title 3**  Clarity -  Advanced ML for Nutritional Analysis and Healthcare Management
+
 **Name**  Morgan Bergen
 
 **Course**  CS 598 Senior Design Project I
+
+**Deadline**  September 6 2024
 
 ----
 
