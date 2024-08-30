@@ -11,6 +11,11 @@
 **Course**  CS 598 Senior Design Project I
 
 ----
+####  Preview of Application Dashboard
+
+<img src="./assets/dashboard.svg">
+
+----
 
 ####  Table of Contents
 
