@@ -1,8 +1,8 @@
-#  Design Project Proposal
+#  Design Project Proposal 
 
-**Project Title**  Clarity -  Harnessing AI for Precision Nutrition and Health Analysis
+**Project Title 1**  Clarity -  Harnessing AI for Precision Nutrition and Health Analysis
 
-**Project Title**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
+**Project Title 2**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
 
 **Name**  Morgan Bergen
 
@@ -93,7 +93,19 @@ Enhance Overall Health and Well-being -  Empower users to make informed dietary 
 
 Clarity will be using the following features to achieve the objectives of the project:
 
--  Image recognition -  users can capture photos of their meals, 
+1.  user profile and data input
+
+users provide their specific information, including age, gender, weight, medical history, medications, and other relevant health data.  the user can set specific health goals related to their dietary needs, such as managing diabetes, losing weight, or improving overall wellness.
+
+2.  mobile device image capture
+
+users capture images of their meals using a mobile device.  the software should be user friendly and guide users on how to take clear and useful photos for analysis.
+
+3.  image analysis and nutritional data extraction
+
+[ai powered analysis](https://openfoodfacts.github.io/openfoodfacts-server/) will consist of uploaded images to a desktop software where machine learning algorithms analyze the food items for nutritional content, portion sizes, and dietary composition.
+
+The app allows users to scan the barcode of products, to view the product information, and to take and submit pictures and data for missing products. [ios app](https://github.com/openfoodfacts/openfoodfacts-ios)  
 
 ####  Methodology
 
