@@ -107,6 +107,214 @@ users capture images of their meals using a mobile device.  the software should 
 
 The app allows users to scan the barcode of products, to view the product information, and to take and submit pictures and data for missing products. [ios app](https://github.com/openfoodfacts/openfoodfacts-ios)  
 
+Nutritional Data Extraction
+
+```JSON
+[
+  {
+    "timestamp": "yyyy-mm-ddThh:mn:ssZ",
+    "transaction": [
+        {
+            "location": "",
+            "vendor": "",
+            "vendor-id": ""
+        }
+    ],
+
+    "general": [
+        {
+            // Barcode of the product
+            "code": "200-EAN-13",
+
+            // URL of the product page
+            "url": "https://xxx.com",
+            
+            // Date that the product was added (UNIX timestamp format)
+            "created_t": "yyyy-mm-ddThh:mn:ssZ",
+
+            // Date that the product was last modified (UNIX timestamp format)
+            "last_modified_t": "yyyy-mm-ddThh:mn:ssZ",
+
+            // Name of the product
+            "product_name": "cherios",
+
+            // Generic name of the product
+            "generic_name": "cereal",
+
+            // Field that designates quantity and unit size
+            "quantity":  _100g
+        }
+    ],
+    "tags" : [
+        {
+            "packaging": shape, material,
+            "packaging_tags": "",
+            "brands": "",
+            "brand_tags": "", 
+            "categories": "",
+            "categories_fr": "",
+            "origins": "origins of ingredients",
+            "origintags": "",
+            // Locations where manufactured or transformed
+            "manufacturing_places": "",
+            "manufacturing_places_atgs": "",
+            "labels": "",
+            "labels_tags": "",
+            "emb_codes": "",
+            "emb_code_tags": "",
+
+            // Coordinates corresponding to the first packaging code indicated
+            "first_packaging_code_geo": "",
+            "cities": "",
+            "cities_tags": "",
+            "purchase_places": "",
+            "stores": "",
+            
+            // List of countries where the product is sold
+            "countries": "",
+            "countries_tags": ""
+        }
+    ],
+    "ingredients" : [
+        {
+            "ingreidents_text": "",
+            "traces": "",
+            "traces_tags": ""
+        }
+    ],
+    "misc_data" : [
+        {
+            // Serving size in g
+            "serving_side": ...,
+            // Indicates if the nutrition facts are indicated on the food label
+            "no_nutrients": ...,
+            "additives": ...,
+            "additives_tags": ...,
+            "ingredients_from_palm_oil_n": ...,
+            "ingreidents_from_palm_oil": ...,
+            "ingreidents_from_palm_oil_tags": ...,
+            "ingreidents_that_may_be_from_palm_oil_n": ...,
+            "ingreidents_that_may_be_from_palm_oil_tags": ...,
+            
+            // Nutrition grade ('a' to 'e')
+            // Reference: https://fr.openfoodfacts.org/nutriscore
+            "nutrition_grade_fr": "a",
+
+            "main_category": ...,
+        }
+    ],
+
+    "nutrition_facts": [
+        {
+            "energy_100g": ...,
+            "energy-kj_100g": ...,
+            ...
+        }
+    ],
+
+    "nutrition_facts" : [
+        {
+            "energy-kcal_100g": ...,
+            "proteins_100g": ...,
+            "casein_100g": ...,
+            "serum-proteins_100g": ...,
+            "nucleotides_100g": ...,
+            "carbohydrates_100g": ...,
+            "sugars_100g": ...,
+            "sucrose_100g": ...,
+            "glucose_100g": ...,
+            "fructose_100g": ...,
+            "lactose_100g": ...,
+            "maltose_100g": ...,
+            "maltodextrins_100g": ...,
+            "starch_100g": ...,
+            "polyols_100g": ...,
+            "fat_100g": ...,
+            "saturated-fat_100g": ...,
+            "butyric-acid_100g": ...,
+            "caproic-acid_100g": ...,
+            "caprylic-acid_100g": ...,
+            "lauric-acid_100g": ...,
+            "myristic-acid_100g": ...,
+            "palmitic-acid_100g": ...,
+            "stearic-acid_100g": ...,
+            "arachidic-acid_100g": ...,
+            "behenic-acid_100g": ...,
+            "lignoceric-acid_100g": ...,
+            "cerotic-acid_100g": ...,
+            "motanic-acid_100g": ...,
+            "melissic-acid_100g": ...,
+            "monounsaturated-fat_100g": ...,
+            "polyunsaturated-fat_100g": ...,
+            "omega_3-fat_100g": ...,
+            "alpha-linolenic-acid_100g": ...,
+            "eicosapentaenoic-acid_100g": ...,
+            "docosahexaenoic-acid_100g": ...,
+            "omega_6-fat_100g": ...,
+            "linoleic-acid_100g": ...,
+            "arachidonic-acid_100g": ...,
+            "gamma-linolenic-acid_100g": ...,
+            "dihomo-gamma-linolenic-acid_100g": ...,
+            "omega_9-fat_100g": ...,
+            "oleic-acid_100g": ...,
+            "elaidic-acid_100g": ...,
+            "gondoic-acid_100g": ...,
+            "mead-acid_100g": ...,
+            "erucic-acid_100g": ...,
+            "nervonic-acid_100g": ...,
+            "trans-fat_100g": ...,
+            "cholesterol_100g": ...,
+            "fiber_100g": ...,
+            "sodium_100g": ...,
+            // % vol of alcohol
+            "alcohol_100g": ...,
+            "vitamin-a_100g": ...,
+            "vitamin-d_100g": ...,
+            "vitamin-e_100g": ...,
+            "vitamin-c_100g": ...,
+            "vitamin-b1_100g": ...,
+            "vitamin-b2_100g": ...,
+            "vitamin-pp_100g": ...,
+            "vitamin-b6_100g": ...,
+            "vitamin-b9_100g": ...,
+            "vitamin-b12_100g": ...,
+            // Also known as vitamine b8
+            "biotin_100g": ...,
+            "pantothenic-acid_100g": ...,
+            "silica_100g": ...,
+            "bicarbonate_100g": ...,
+            "chloride_100g": ...,
+            "calcium_100g": ...,
+            "phosphorus_100g": ...,
+            "iron_100g": ...,
+            "magnesium_100g": ...,
+            "zinc_100g": ...,
+            "copper_100g": ...,
+            "manganeses_100g": ...,
+            "fluoride_100g": ...,
+            "selenium_100g": ...,
+            "chromium_100g": ...,
+            "molybdenum_100g": ...,
+            "iodine_100g": ...,
+            "caffeine_100gtaurine_100g": ...,
+            // pH (no unit)
+            "ph_100g": ..., 
+            // % of fruits, vegetables, and nuts (excluding potatoes, yams, manioc)
+            "fruits-vegetables-nuts_100g": ...,
+        }
+    ],
+
+    // Nutri-Score
+    // Nutrition score derived from the UK FSA score and adapted for the French market (formula defined by the team of Professor Hercberg)
+    "nutrition-score-fr_100g" : "a",
+
+    // Nutrition score defined by the UK Food Standards Administration (FSA)
+    "nutrition-score-uk_100g": "a",
+
+  }
+] 
+```
+
 ####  Methodology
 
 ####  Tools and Technologies
