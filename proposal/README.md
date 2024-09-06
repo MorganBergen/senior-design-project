@@ -342,7 +342,7 @@ Technology Stack Ideas
 -  App Function - for cross-platform development and provides a native-like experience
 -  Firebase - for cloud storage, user authentication, and data handling
 -  `react-native-health` for integrating with healthKit
--  Platform Integration - firebase for cloud storage, user authentication, hosting, and database.
+-  Platform Integration - firebase or pocketbase for cloud storage, user authentication, hosting, and database.
 -  Additional Tools - `redux` for state management, `axios` for https request, jest for unit testing
 
 -  [material ui for design](https://mui.com/material-ui/)
@@ -420,4 +420,4 @@ TBD
 
 ####  Tools for Development
 
-Figma - 
+Figma - [Link to Project](https://www.figma.com/proto/0lIIBK2ARIaFwXMi4KiJY0/mockup?node-id=70-287&t=EZ5trGXitWiy3gsk-1)
