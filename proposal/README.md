@@ -1,6 +1,6 @@
 #  Clarity
 
-> 🚧 Design Project Proposal - unfinished & currently under maintenance
+> 🚧 Design Project Proposal - Currently under maintenance
 
 **Project Title 1**  Clarity -  Nutritional Analysis and Health Insights at Your Fingertips
 
@@ -99,15 +99,15 @@ Enhance Overall Health and Well-being -  Empower users to make informed dietary 
 
 Clarity will be using the following features to achieve the objectives of the project:
 
-1.  user profile and data input
+1.  User profile and data input
 
 users provide their specific information, including age, gender, weight, medical history, medications, and other relevant health data.  the user can set specific health goals related to their dietary needs, such as managing diabetes, losing weight, or improving overall wellness.
 
-2.  mobile device image capture
+2.  Mobile device image capture
 
 users capture images of their meals using a mobile device.  the software should be user friendly and guide users on how to take clear and useful photos for analysis.
 
-3.  image analysis and nutritional data extraction
+3.  Image analysis and nutritional data extraction
 
 [ai powered analysis](https://openfoodfacts.github.io/openfoodfacts-server/) will consist of uploaded images to a desktop software where machine learning algorithms analyze the food items for nutritional content, portion sizes, and dietary composition.
 
@@ -347,6 +347,15 @@ Technology Stack Ideas
 
 ##  Design
 
+The design of the application will consists of a user journey that includes the following screens:
+
+1.  **Login Screen** -  Users can login or create an account to access the app.
+2.  **Dashboard** -  Users can view their daily nutritional intake, health data, and personalized recommendations.
+3.  **Analysis** -  Users can view detailed analysis of their meals, dietary trends, and health insights.
+4.  **Settings** -  Users can update their profile, health goals, and preferences.
+5.  **Reports** -  Users can export their data for healthcare providers or insurance companies.
+6.  etc.
+
 ####  Sketches / Models
 
 <img src="./assets/login.svg">
@@ -357,9 +366,15 @@ Technology Stack Ideas
 
 ####  Design Architecture
 
+Architecture Diagram is to be determined
+
 ##  Implementation Plan
 
+TBD
+
 ####  Timeline
+
+TBD
 
 ####  Task Allocation
 
@@ -373,7 +388,18 @@ Technology Stack Ideas
 
 ####  APIs
 
+-  [Open Food Facts API](https://openfoodfacts.github.io/openfoodfacts-server/api/)
+-  [HealthKit](https://developer.apple.com/documentation/healthkit)
+-  [Firebase](https://firebase.google.com)
+
 ####  Datasets
+
+-  [Open Food Facts](https://world.openfoodfacts.org/data)
+-  [USDA Food Data Central](https://fdc.nal.usda.gov)
+-  [Nutritionix](https://www.nutritionix.com)
+-  [USDA FoodData Central](https://fdc.nal.usda.gov)
+-  [USDA Food Composition Databases](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/)
+-  [USDA National Nutrient Database for Standard Reference](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/)
 
 ####  Libraries
 
