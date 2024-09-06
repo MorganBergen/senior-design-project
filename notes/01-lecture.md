@@ -52,8 +52,8 @@ description:  develop a decentralized identity management system on the xrp ledg
 
 features:  secure data storage, verifiable credentials, and integration with third party services.
 
-2.  tokenized asset platform
+2.  Own - Tokenized asset platform on the xrp ledger
 
-description:  develop a platform for tokenizing real world assets (e.g. real estate, art, commodities) on the xrp ledger
+Description:  develop a platform for tokenizing real world assets (e.g. real estate, art, commodities) on the xrp ledger
 
-features:  fractional ownership, smart contracts for asset management, and compliance with local regulations.
+Features:  Fractional ownership, Smart contracts for asset management, and compliance with local regulations.

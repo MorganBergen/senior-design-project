@@ -337,13 +337,16 @@ API Integration
 
 Technology Stack Ideas
 
--  Language -  typescript 
+-  Language -  javascript, typescript 
 -  Library / Framework - react native
 -  App Function - for cross-platform development and provides a native-like experience
 -  Firebase - for cloud storage, user authentication, and data handling
 -  `react-native-health` for integrating with healthKit
 -  Platform Integration - firebase for cloud storage, user authentication, hosting, and database.
 -  Additional Tools - `redux` for state management, `axios` for https request, jest for unit testing
+
+-  [material ui for design](https://mui.com/material-ui/)
+-  [pocketbase](https://pocketbase.io)
 
 ##  Design
 
@@ -416,3 +419,5 @@ TBD
 ####  Documentation
 
 ####  Tools for Development
+
+Figma - 
