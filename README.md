@@ -480,11 +480,11 @@ The design of the application will consists of a user journey that includes the 
 
 ####  Sketches / Models
 
-<img src="./assets/login.svg">
+<img src="./proposal/assets/login.svg">
 
-<img src="./assets/dashboard.svg">
+<img src="./proposal/assets/dashboard.svg">
 
-<img src="./assets/analysis.svg">
+<img src="./proposal/assets/analysis.svg">
 
 ####  Design Architecture
 
