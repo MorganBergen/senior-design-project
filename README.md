@@ -124,7 +124,7 @@ file format {project_name}_onepage_proposal.pdf
 <details>
     <summary>Open Toggle to Preview of Application Dashboard</summary>
     <p>
-        <img src="./assets/dashboard.svg" alt="Dashboard Preview">
+        <img src="./docs/assets/dashboard.svg" alt="Dashboard Preview">
     </p>
 </details>
 
@@ -480,11 +480,19 @@ The design of the application will consists of a user journey that includes the 
 
 ####  Sketches / Models
 
+<<<<<<< HEAD
 <img src="./proposal/assets/login.svg">
 
 <img src="./proposal/assets/dashboard.svg">
 
 <img src="./proposal/assets/analysis.svg">
+=======
+<img src="./docs/assets/login.svg">
+
+<img src="./docs/assets/dashboard.svg">
+
+<img src="./docs/assets/analysis.svg">
+>>>>>>> 4618af0 (update for dec 25)
 
 ####  Design Architecture
 
